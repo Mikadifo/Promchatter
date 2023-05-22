@@ -1,11 +1,14 @@
-<p align="center">
+<!-- <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
-</p>
+</p> -->
 <h1 align="center">
-  Gatsby Minimal Starter
+  Promptify
 </h1>
+
+## What is this?
+Propmtify is an application that will help you create, share and use AI-chat propmts, so you can take advantage and be more productive in this AI era.
 
 ## 🚀 Quick start
 
