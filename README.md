@@ -7,7 +7,6 @@
   Promptify
 </h1>
 
-## What is this?
 Propmtify is an application that will help you create, share and use AI-chat propmts, so you can take advantage and be more productive in this AI era.
 
 ## 🚀 Quick start
