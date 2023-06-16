@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Promptify
+
+Propmtify is a web application that will help you create, share and use AI-chat propmts, so you can take advantage and be more productive in this AI era.
 
 ## Getting Started
 
