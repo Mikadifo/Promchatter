@@ -1,3 +1,4 @@
+![Logo](https://github.com/Mikadifo/Promptify/assets/51935560/aa151ad7-77c0-474b-81ba-eafb3a8d584d)
 # Promptify
 
 Propmtify is a web application that will help you create, share and use AI-chat propmts, so you can take advantage and be more productive in this AI era.
