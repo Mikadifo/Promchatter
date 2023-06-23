@@ -1,4 +1,4 @@
-![Logo](https://github.com/Mikadifo/Promptify/assets/51935560/aa151ad7-77c0-474b-81ba-eafb3a8d584d)
+![Logo](https://github.com/Mikadifo/Promchatter/assets/51935560/3268f902-a23f-4202-a3e4-5db0577ed9e2)
 
 # Promchatter
 
