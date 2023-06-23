@@ -1,0 +1,14 @@
+{
+  "cssImports": {
+    "/Volumes/DEV/projects/Promchatter/src/app/layout.js": [
+      "/Volumes/DEV/projects/Promchatter/src/app/globals.css",
+      "/Volumes/DEV/projects/Promchatter/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ]
+  },
+  "cssModules": {
+    "/Volumes/DEV/projects/Promchatter/src/app/page": [
+      "/Volumes/DEV/projects/Promchatter/src/app/globals.css",
+      "/Volumes/DEV/projects/Promchatter/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ]
+  }
+}
