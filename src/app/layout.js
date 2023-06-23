@@ -1,7 +1,18 @@
 import './globals.css';
-import { Inter } from 'next/font/google';
+import { Lato, Raleway } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const lato = Lato({
+    subsets: ['latin'],
+    display: 'swap',
+    weight: ['300', '400', '700'],
+    variable: '--font-lato',
+});
+const raleway = Raleway({
+    subsets: ['latin'],
+    display: 'swap',
+    weight: ['300', '400', '700'],
+    variable: '--font-raleway',
+});
 
 export const metadata = {
     title: 'Promchatter',
@@ -12,7 +23,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={inter.className}>{children}</body>
+            <body className={`${lato.variable} ${raleway.variable}`}>
+                {children}
+            </body>
         </html>
     );
 }

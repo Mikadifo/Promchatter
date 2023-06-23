@@ -1,8 +1,11 @@
+import Image from 'next/image';
+import logo from './../assets/imgs/logo.png';
+
 const Navbar = () => {
     return (
-        <nav>
-            <img src="" alt="Brand Logo" />
-            <ul>
+        <nav className="bg-white text-black">
+            <Image src={logo} alt="Promchatter Logo" width={218} height={43} />
+            <ul className="font-lato">
                 <li>
                     <a href="#">Explore</a>
                 </li>
