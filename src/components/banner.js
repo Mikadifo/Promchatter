@@ -1,11 +1,12 @@
 import Link from 'next/link';
+import Button from './button';
 
-const Banner = (isFooter = false) => {
+const Banner = ({ isFooter = false }) => {
     return (
-        <div>
-            <h1>Promchatter</h1>
-            <h3>Unlock the power of AI conversations</h3>
-            <Link href="/explore">Start Exploring</Link>
+        <div className="bg-[url('./../assets/imgs/gradient.svg')] bg-no-repeat bg-cover text-white text-center py-32">
+            <h1 className="mb-8">Promchatter</h1>
+            <h3 className="mb-12">Unlock the power of AI conversations</h3>
+            <Button>Start Exploring</Button>
             {isFooter && (
                 <h4>
                     <ul>
