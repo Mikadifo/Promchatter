@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import logo from './../assets/imgs/logo.png';
 
 const Navbar = () => {
@@ -13,19 +14,16 @@ const Navbar = () => {
             />
             <ul className="font-lato flex gap-3">
                 <li>
-                    <a href="#">Explore</a>
+                    <Link href="/">Explore</Link>
                 </li>
                 <li>
-                    <a href="#">My Prompts</a>
+                    <Link href="/myprompts">My Prompts</Link>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <Link href="/about">About</Link>
                 </li>
             </ul>
-            <a
-                href="#"
-                className="px-6 py-3 border border-solid border-blue rounded-lg font-lato font-bold"
-            >
+            <a className="px-6 py-3 border border-solid border-blue rounded-lg font-lato font-bold">
                 Sign in
             </a>
         </nav>
