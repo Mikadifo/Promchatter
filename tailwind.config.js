@@ -21,6 +21,16 @@ module.exports = {
                 raleway: ['var(--font-raleway)'],
             },
         },
+        boxShadow: {
+            bottom: [
+                '0px 0px 0px 0px rgba(0, 0, 0, 0.10)',
+                '0px 7px 15px 0px rgba(0, 0, 0, 0.10)',
+                '0px 28px 28px 0px rgba(0, 0, 0, 0.09)',
+                '0px 63px 38px 0px rgba(0, 0, 0, 0.05)',
+                '0px 113px 45px 0px rgba(0, 0, 0, 0.01)',
+                '0px 176px 49px 0px rgba(0, 0, 0, 0.00)',
+            ],
+        },
     },
     plugins: [],
 };

@@ -6,6 +6,9 @@ export default function Home() {
         <main>
             <Navbar />
             <Banner />
+            <footer>
+                <Banner isFooter={true} />
+            </footer>
         </main>
     );
 }
