@@ -1,5 +1,6 @@
 import './globals.css';
 import { Lato, Raleway } from 'next/font/google';
+import Navbar from '@/components/navbar';
 
 const lato = Lato({
     subsets: ['latin'],
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className={`${lato.variable} ${raleway.variable}`}>
+                <Navbar />
                 {children}
             </body>
         </html>
