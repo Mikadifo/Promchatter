@@ -17,7 +17,7 @@ const Banner = ({ isFooter = false }) => {
                 <h3 className="mb-12 text-3xl font-raleway font-normal">
                     Unlock the power of AI conversations
                 </h3>
-                <Link href="#">
+                <Link href="/">
                     <Button>Start Exploring</Button>
                 </Link>
             </div>
@@ -28,16 +28,22 @@ const Banner = ({ isFooter = false }) => {
                     </h4>
                     <ul className="text-xl font-lato mt-8 list-disc list-inside">
                         <li>
-                            <Link href="#">FAQs</Link>
+                            <Link href="/faqs">FAQs</Link>
                         </li>
                         <li>
-                            <Link href="#">About</Link>
+                            <Link href="/about">About</Link>
                         </li>
                         <li>
-                            <Link href="#">Creators</Link>
+                            <Link href="/team">Our team</Link>
                         </li>
                         <li>
-                            <Link href="#">Github</Link>
+                            <Link
+                                href="https://github.com/Mikadifo/Promchatter"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                Github
+                            </Link>
                         </li>
                     </ul>
                 </div>
