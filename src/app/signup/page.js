@@ -32,7 +32,7 @@ const SignUp = () => {
                     Already a member?
                     <Link
                         className="font-bold ml-1 hover:underline"
-                        href="/signup"
+                        href="/login"
                     >
                         Log in
                     </Link>
