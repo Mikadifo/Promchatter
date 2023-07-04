@@ -23,9 +23,12 @@ const Navbar = () => {
                     <Link href="/about">About</Link>
                 </li>
             </ul>
-            <a className="px-6 py-3 border border-solid border-blue rounded-lg font-lato font-bold">
+            <Link
+                href="/login"
+                className="px-6 py-3 border border-solid border-blue rounded-lg font-lato font-bold"
+            >
                 Sign in
-            </a>
+            </Link>
         </nav>
     );
 };
