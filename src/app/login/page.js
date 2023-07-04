@@ -37,7 +37,7 @@ const Login = () => {
                     Don't have an account yet?
                     <Link
                         className="font-bold ml-1 hover:underline"
-                        href="/sign-up"
+                        href="/signup"
                     >
                         Sign up
                     </Link>
