@@ -3,6 +3,10 @@ import Input from '@/components/input';
 import Link from 'next/link';
 
 const Login = () => {
+    const handleSubmit = () => {
+        console.log('....');
+    };
+
     return (
         <div className="flex justify-center">
             <div className="text-center my-24 inline-block">
