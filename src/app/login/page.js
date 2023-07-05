@@ -21,7 +21,11 @@ const Login = () => {
                     or
                     <span className="border-b border-gray border-solid h-[1px] w-full ml-4" />
                 </span>
-                <form action="/#" method="get" className="grid text-left gap-2">
+                <form
+                    onSubmit={handleSubmit}
+                    method="get"
+                    className="grid text-left gap-2"
+                >
                     <Input label="Username:" type="text" name="username" />
                     <Input
                         label="Password:"
