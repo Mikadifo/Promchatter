@@ -1,9 +1,17 @@
+'use client';
+
 import Button from '@/components/button';
 import Input from '@/components/input';
 import Link from 'next/link';
+import { useState } from 'react';
 
 const Login = () => {
-    const handleSubmit = () => {
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+    const handleSubmit = (evt) => {
+        evt.preventDefault();
+        console.log(email, password);
         console.log('....');
     };
 
@@ -26,12 +34,18 @@ const Login = () => {
                     method="get"
                     className="grid text-left gap-2"
                 >
-                    <Input label="Username:" type="text" name="username" />
+                    <Input
+                        label="Email:"
+                        type="email"
+                        name="email"
+                        onChange={({ target }) => setEmail(target.value)}
+                    />
                     <Input
                         label="Password:"
                         type="password"
                         name="password"
                         labelStyle="mt-4"
+                        onChange={({ target }) => setPassword(target.value)}
                     />
                     <Link
                         href="/forgot-password"

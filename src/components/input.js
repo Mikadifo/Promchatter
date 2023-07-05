@@ -1,4 +1,11 @@
-const Input = ({ type, label, name, labelStyle = '', inputStyle = '' }) => {
+const Input = ({
+    type,
+    label,
+    name,
+    labelStyle = '',
+    inputStyle = '',
+    onChange,
+}) => {
     return (
         <>
             <label
@@ -13,6 +20,7 @@ const Input = ({ type, label, name, labelStyle = '', inputStyle = '' }) => {
                 name={name}
                 className={`border border-solid border-gray rounded
                 font-lato font-normal text-black text-xl py-1 px-2 ${inputStyle}`}
+                onChange={onChange}
                 required
             />
         </>

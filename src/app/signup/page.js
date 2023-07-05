@@ -1,26 +1,50 @@
+'use client';
+
 import Button from '@/components/button';
 import Input from '@/components/input';
 import Link from 'next/link';
+import { useState } from 'react';
 import AuthBanner from '../../components/authBanner';
 
 const SignUp = () => {
+    const [email, setEmail] = useState('');
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+
+    const handleSubmit = (evt) => {
+        evt.preventDefault();
+        console.log(email, password, username);
+        console.log('....');
+    };
+
     return (
         <div className="flex justify-center">
             <div className="text-center my-24 inline-block">
                 <AuthBanner />
-                <form action="/#" method="get" className="grid text-left gap-2">
-                    <Input label="Username:" type="text" name="username" />
+                <form
+                    onSubmit={handleSubmit}
+                    method="get"
+                    className="grid text-left gap-2"
+                >
+                    <Input
+                        label="Email:"
+                        type="text"
+                        name="email"
+                        onChange={({ target }) => setEmail(target.value)}
+                    />
+                    <Input
+                        label="Username:"
+                        type="Username"
+                        name="username"
+                        labelStyle="mt-4"
+                        onChange={({ target }) => setUsername(target.value)}
+                    />
                     <Input
                         label="Password:"
                         type="password"
-                        name="password"
+                        name="Password"
                         labelStyle="mt-4"
-                    />
-                    <Input
-                        label="Email:"
-                        type="email"
-                        name="email"
-                        labelStyle="mt-4"
+                        onChange={({ target }) => setPassword(target.value)}
                     />
                     <p className="text-start mb-8 opacity-70">
                         At least 8 characters, a sign, a number and capital
