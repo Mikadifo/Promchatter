@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Button from '@/components/button';
 
 const NotFound = () => {
@@ -10,9 +9,9 @@ const NotFound = () => {
                 <p className="text-4xl font-lato mb-12">
                     The page you're looking for does not exist.
                 </p>
-                <Link href="/">
-                    <Button>Back to Home</Button>
-                </Link>
+                <Button link to="/">
+                    Back to Home
+                </Button>
             </div>
         </div>
     );
