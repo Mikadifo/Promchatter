@@ -13,10 +13,21 @@ Propmchatter is a web application that will help you create, share and use AI-ch
 
 ## Getting Started
 
--   First, create and seed a `.env` file:
+-   First, create and seed a `.env` file with the following:
 
 ```
-
+REACT_APP_API_KEY=<your-firebase-api-key>
+REACT_APP_AUTH_DOMAIN=<your-firebase-project>.firebaseapp.com
+REACT_APP_DATABASE_URL=<your-firebase-db-url>
+REACT_APP_PROJECT_ID=<your-firebase-project>
+REACT_APP_STORAGE_BUCKET=<your-firebase-project>.appspot.com
+REACT_APP_MESSAGING_SENDER_ID=<your-firebase-sender-id>
+REACT_APP_APP_ID=<your-firebase-app-id>
+# AES Encryption
+REACT_APP_SECRET_KEY=<a-hashed-secret-key>
+REACT_APP_SECRET_IV=<a-hashed-secret-iv>
+REACT_APP_ENCRYPTION_METHOD=aes-256-cbc
+REACT_APP_HASHING_METHOD=sha-512
 ```
 
 -   Run the development server:
