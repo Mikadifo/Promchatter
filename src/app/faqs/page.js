@@ -2,8 +2,7 @@
 import faqs from './../../assets/data/faqs.js';
 import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 import { useState } from 'react';
-
-//TODO: search bar
+import SearchBar from './../../components/searchBar';
 
 const FAQs = () => {
     return (
@@ -11,6 +10,7 @@ const FAQs = () => {
             <h3 className="text-blue font-bold text-3xl text-center font-raleway mb-16">
                 Frequent Asked Questions
             </h3>
+            <SearchBar customStyles="w-full mb-16" />
             <div className="grid gap-12">
                 {faqs.map((faq) => (
                     <QuestionCard key={faq.id} question={faq} />
