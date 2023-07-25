@@ -30,6 +30,14 @@ REACT_APP_ENCRYPTION_METHOD=aes-256-cbc
 REACT_APP_HASHING_METHOD=sha-512
 ```
 
+-   Install the project dependencies:
+
+```bash
+npm install
+# or
+npm i
+```
+
 -   Run the development server:
 
 ```bash
@@ -47,6 +55,17 @@ pnpm dev
 This project uses [next/font](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Raleway and Lato, custom Google Fonts.
 
 We're using [tailwindcss](https://tailwindcss.com/) for the css styles.
+
+## Contributing
+
+We welcome any contribution to the project, code, review, tips, transalation, documentation, etc.
+
+When contributing consider the following rules:
+
+-   Make sure your contribution explains what you did and how it solves a problem or issue in the project.
+-   If it's a code contribution, you should open a pull request. Pull request should be reviewed by a code owner before merging to master.
+
+Feel free to contanct us by email or opening a discussion.
 
 ## Learn More
 
