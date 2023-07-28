@@ -2,8 +2,7 @@ name: Prettier-Linter
 
 on:
     pull_request:
-        branches:
-            - master
+        branches: [master]
 
 jobs:
     prettier:
@@ -13,6 +12,9 @@ jobs:
         steps:
             - name: Checkout code
               uses: actions/checkout@v3
+              with:
+                  ref: ${{ github.head_ref }}
+                  fetch-depth: 0
 
             - name: Run Prettier Linter
               uses: creyD/prettier_action@v4.3
