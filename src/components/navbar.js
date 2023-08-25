@@ -14,7 +14,7 @@ const Navbar = () => {
             />
             <ul className="font-lato flex gap-3">
                 <li>
-                    <Link href="/">Explore</Link>
+                    <Link href="/explore">Explore</Link>
                 </li>
                 <li>
                     <Link href="/myprompts">My Prompts</Link>
